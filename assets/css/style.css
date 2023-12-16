@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fs-100{ font-size: 50px}
+.pt-100{ padding-top: 150px;}
+.ptb-70{ padding-top: 70px; padding-bottom: 70px;}
+h1, h2, h3, h4, h5, h6, p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Banner Section Start */
+.banner{
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/industry-night.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.banner .form-bg{
+    width: 80%;
+    margin-left: auto;
+}
+.banner form table tr td input{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+}
+.banner form table tr td{
+    padding: 8px;
+}
+.banner form table textarea{
+    width: 200%;
+    height: 100px;
+    font-size: 12px;
+}
+.banner button{
+    width: 100%;
+    border-radius: 0px;
+}
+/* /Banner Section End */
+
+/* Inovation Section Start */
+.inovation .img-fluid{
+    width: 100%;
+    height: 200px;
+}
+/* /Inovation Section End */
