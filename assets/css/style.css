@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.fs-100{ font-size: 50px}
+.fs-100{ font-size: 60px}
 .pt-100{ padding-top: 150px;}
 .ptb-70{ padding-top: 70px; padding-bottom: 70px;}
 h1, h2, h3, h4, h5, h6, p{
@@ -16,10 +16,6 @@ h1, h2, h3, h4, h5, h6, p{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/industry-night.jpg);
     background-position: center center;
     background-size: cover;
-}
-.banner .form-bg{
-    width: 100%;
-    margin-left: auto;
 }
 .banner form input{
     width: 100%;
