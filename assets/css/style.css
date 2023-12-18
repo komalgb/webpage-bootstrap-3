@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .fs-100{ font-size: 60px}
-.pt-100{ padding-top: 150px;}
 .ptb-70{ padding-top: 70px; padding-bottom: 70px;}
 h1, h2, h3, h4, h5, h6, p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -43,3 +42,29 @@ h1, h2, h3, h4, h5, h6, p{
     height: 200px;
 }
 /* /Inovation Section End */
+
+/* Media Query Start */
+@media (min-width: 992px) 
+{ 
+    .banner h1{
+        padding-top: 120px;
+        padding-left: 50px;
+    }
+    .banner span{
+        font-size: 50px;
+    }
+    .banner .form-bg{
+        width: 80%;
+    }
+}
+@media (max-width: 576px) { 
+    .banner h1{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .banner span{
+        font-size: 40px;
+        color: #DC3545;
+    }
+ }
+/* /Media Query End */
